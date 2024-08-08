@@ -1,5 +1,11 @@
-// You can define interfaces for all React components here.
-// Do not forget to export properly.
+export interface UserProps{
+    likes: number;
+    fullName: string;
+    postSentence: string;
+}
+
+
+
 
 interface ReplyProps {}
 export type { ReplyProps };
